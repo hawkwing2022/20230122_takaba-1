@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COACHTECH</title>
+</head>
+<body>
+  <main>
+    <h1>キャッチコピー</h1>
+    <h2>About</h2>
+    <p>COACHTECH(コーチテック)はフリーランス特化型のオンラインプログラミングスクールです。<br>
+      プログラミング未経験の方でも、「独自の学習ノウハウ」でフリーランスエンジニアを目指すことができます。</p>
+    <h2>ブログ</h2>
+    <img src="img/blog__eyecatch1.jpg" alt="blog__eyecatch1">
+    <h3>コーチテックブログのタイトルがここには入ります。</h3>
+    <img src="img/blog__eyecatch2.jpg" alt="blog__eyecatch2">
+    <h3>コーチテックブログのタイトルがここには入ります。</h3>
+    <img src="img/blog__eyecatch3.jpg" alt="blog__eyecatch3">
+    <h3>コーチテックブログのタイトルがここには入ります。</h3>
+    <form action="./inquiry.html" method="post">
+      <h2>問い合わせ</h2>
+      <table>
+        <tr>
+          <td align="center">
+            <label for="name">名前</label></td>
+            <td><input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <label for="email">メールアドレス</label>
+          </td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <label for="matter">用件</label>
+          </td>
+          <td>
+            <select name="matter">
+              <option value="広告">広告掲載について</option>
+              <option value="広告">学習の詳細内容について</option>
+              <option value="広告">期間、費用について</option>
+              <option value="広告">ページ内容について</option>
+              <option value="広告">その他</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <label for="content">内容</label>
+          </td>
+          <td>
+            <textarea name="content" cols="50" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr><td>
+          <input type="reset" name="reset" value="削除" />
+          <input type="submit" name="submit" value="送信" />
+        </td></tr>
+      </table>
+    </form>
+  </main>
+</body>
+</html>
